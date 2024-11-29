@@ -549,7 +549,7 @@ function replaceAtributeTopSong(){
 replaceAtributeTopSong();
 
 function renderRecentSong(artist,stt){
-    recentPlayedTitle.textContent = `Top song of singer`;
+    recentPlayedTitle.textContent = `Bài hát hay nhất của ca sĩ`;
     listArtistItem[stt].classList.add('recentPlayed_clicked');
     listArtistitemIconRunning[stt].innerHTML = '<img class="iconwavegif listArtist_item-icongift" src="./icon/list.gif" alt="">';
     recentSong.innerHTML = '';
