@@ -35,23 +35,23 @@ var topSongIndex = 0;
 var isTopSongPlaying = true;
 var topSong = [
     {
-        nameSong: 'Anh sai rồi',
-        nameArtist: 'Sơn Tùng',
-        nameFile:'sontung/asairoi.mp3',
-        time:'4:22',
-        img:'sontung/asairoi.jpg'
+        nameSong: 'Độ Tộc 2 Remix',
+        nameArtist: 'Masew',
+        nameFile:'5.mp3',
+        time:'3:01',
+        img:'masew/avatar.jpg'
     },
     {
-        nameSong: 'Nàng thơ',
-        nameArtist:'Amee',
-        nameFile:'amee/nangtho.mp3',
-        time:'4:22',
-        img:'amee/nangtho.webp'
+        nameSong: 'Chỉ Là Remix',
+        nameArtist:'Trang Pháp x Huy lee',
+        nameFile:'213.mp3',
+        time:'3:57',
+        img:'trangphap/avatar.jpg'
     },
     {
         nameSong:'Đế vương',
         nameArtist:'Đình Dũng',
-        nameFile:'dinhdung/devuong.mp3',
+        nameFile:'1.mp3',
         time:'4:22',
         img:'dinhdung/devuong.jpg'
     },
@@ -238,7 +238,7 @@ var listSongOf =[
     }
 
 ]
-song.setAttribute("src",`./musics/${topSong[topSongIndex].nameFile}`);
+song.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/${topSong[topSongIndex].nameFile}`);
 
 playBtn.addEventListener('click', playMusic);
 function playMusic(){
@@ -390,11 +390,11 @@ function randomNewMusic(){
 var indexRandm = 0;
 function runRandomList(){
     if( indexRandm == listRandom.length) indexRandm=0;
-    song.setAttribute("src",`./musics/${listSongOf[listRandom[indexRandm]].nameFile}`);
+    song.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/${listSongOf[listRandom[indexRandm]].nameFile}`);
     miniArtist.textContent = `${listSongOf[listRandom[indexRandm]].nameArtist}`;
     miniTitle.textContent = `${listSongOf[listRandom[indexRandm]].nameSong}`;
-    topSongThumb.setAttribute("src",`./img/${listSongOf[listRandom[indexRandm]].img}`);
-    playThumb.setAttribute("src",`./img/${listSongOf[listRandom[indexRandm]].img}`);
+    topSongThumb.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/Artist/${listSongOf[listRandom[indexRandm]].img}`);
+    playThumb.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/Artist/${listSongOf[listRandom[indexRandm]].img}`);
     isPlaying =true;
     playMusic();
     indexRandm++;
@@ -540,16 +540,16 @@ renderTopSong();
 
 
 function replaceAtributeTopSong(){
-    song.setAttribute("src",`./musics/${topSong[topSongIndex].nameFile}`);
+    song.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/${topSong[topSongIndex].nameFile}`);
     miniArtist.textContent = `${topSong[topSongIndex].nameArtist}`;
     miniTitle.textContent = `${topSong[topSongIndex].nameSong}`;
-    topSongThumb.setAttribute("src",`./img/${topSong[topSongIndex].img}`);
-    playThumb.setAttribute("src",`./img/${topSong[topSongIndex].img}`);
+    topSongThumb.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/Artist/${topSong[topSongIndex].img}`);
+    playThumb.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/Artist/${topSong[topSongIndex].img}`);
 }
 replaceAtributeTopSong();
 
 function renderRecentSong(artist,stt){
-    recentPlayedTitle.textContent = `Bài hát hay nhất của ca sĩ`;
+    recentPlayedTitle.textContent = `Bài hát hay nhất của ca sĩ đang chọn`;
     listArtistItem[stt].classList.add('recentPlayed_clicked');
     listArtistitemIconRunning[stt].innerHTML = '<img class="iconwavegif listArtist_item-icongift" src="./icon/list.gif" alt="">';
     recentSong.innerHTML = '';
@@ -560,7 +560,7 @@ function renderRecentSong(artist,stt){
             recentSong.innerHTML += `
             <div class="recentPlayed_item recentPlayed_item${i}" onclick="playMusicOf(${index},${i})">
                     <div class="recentPlayed_item-img1">
-                        <img class="recentPlayed_item-img" src="./img/${listSongOf[index].img}" alt="">
+                        <img class="recentPlayed_item-img" src="https://data.hoanganhtuc.com/Uploads/Musics/Artist/${listSongOf[index].img}" alt="">
                     </div>
                     <div class="recentPlayed_item-nameSong">
                         ${listSongOf[index].nameSong}
@@ -591,11 +591,11 @@ function playMusicOf(num,i){
     }
     recentPlayedItem[i].classList.add('recentPlayed_item-img_clicked');
     renderTopSong();
-    song.setAttribute("src",`./musics/${listSongOf[num].nameFile}`);
+    song.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/${listSongOf[num].nameFile}`);
     miniArtist.textContent = `${listSongOf[num].nameArtist}`;
     miniTitle.textContent = `${listSongOf[num].nameSong}`;
-    topSongThumb.setAttribute("src",`./img/${listSongOf[num].img}`);
-    playThumb.setAttribute("src",`./img/${listSongOf[num].img}`);
+    topSongThumb.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/Artist/${listSongOf[num].img}`);
+    playThumb.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/Artist/${listSongOf[num].img}`);
     isPlaying =true;
     playMusic();
 }
@@ -673,7 +673,7 @@ function renderAnotherSong(){
     for ( var i = 0 ; i < arrayAdd.length ; i++){
         anotherSong.innerHTML += `
         <div class="anotherSong_item" onclick="playAnotherSong(${arrayAdd[i]},${i})">
-                    <div class="anotherSong_item-img"><img class="anotherSong_item-img" src="./img/${listSongOf[arrayAdd[i]].img}" alt=""></div>
+                    <div class="anotherSong_item-img"><img class="anotherSong_item-img" src="https://data.hoanganhtuc.com/Uploads/Musics/Artist/${listSongOf[arrayAdd[i]].img}" alt=""></div>
                     <div class="anotherSong_item-name">
                         <span class="anotherSong_item-nameSong">${listSongOf[arrayAdd[i]].nameSong}</span>
                     <div class="anotherSong_item-name2">
@@ -720,11 +720,11 @@ function playAnotherSong(index,i){
     isTopSongPlaying = false;
     renderTopSong();
     removeWhiteBackground(i);
-    song.setAttribute("src",`./musics/${listSongOf[index].nameFile}`);
+    song.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/${listSongOf[index].nameFile}`);
     miniArtist.textContent = `${listSongOf[index].nameArtist}`;
     miniTitle.textContent = `${listSongOf[index].nameSong}`;
-    topSongThumb.setAttribute("src",`./img/${listSongOf[index].img}`);
-    playThumb.setAttribute("src",`./img/${listSongOf[index].img}`);
+    topSongThumb.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/Artist/${listSongOf[index].img}`);
+    playThumb.setAttribute("src",`https://data.hoanganhtuc.com/Uploads/Musics/Artist/${listSongOf[index].img}`);
     isPlaying =true;
     playMusic();
 }

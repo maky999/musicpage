@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=icon type=image/png sizes=50x50 href="/Uploads/HAT_Musics.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +18,10 @@
     <div id="allPage" class="allPage">
     <div class="main">
         <div class="leftBar">
-            <h3 class="leftBar_title"><i class="fa-solid fa-align-left"></i> HoangAnhTuc</h3>
+            <h3 class="leftBar_title">
+                <!-- <i class="fa-solid fa-align-left"></i> -->
+                <a href="/"><div id="logo" style="background-image: url(https://data.hoanganhtuc.com/Uploads/Musics/musics_logo.png); width: 150px; height: 40px;"></div></a>
+            </h3>
             <div class="leftBar_recommend">
                 <span class="leftBar_title2">Gợi ý</span>
                 <ul>
@@ -46,6 +50,12 @@
                     <li class="leftBar_playlist-item">Jazz</li>
                 </ul>
             </div>
+            <div class="leftBar_playlist">
+                <span class="leftBar_title2">Hướng dẫn</span>
+                <ul>
+                    <li class="leftBar_playlist-item"><a href="https://api.hoanganhtuc.com/developer" target="_blank" style="color: #333;">Tài liệu kết nối APi</li></a>
+                </ul>
+            </div>
         </div>
         <div class="container">
             <header>
@@ -55,7 +65,7 @@
                 <div class="account">
 
                 </div>
-            </header><h2 class="topMusic-title">Bảng xếp hạng 2022</h2>
+            </header><h2 class="topMusic-title">Bảng xếp hạng</h2>
             <div class="topMusic">
                 <div class="topMusic_item--img">
                     <img class="topMusic_item--img--thumb"  alt="">
@@ -163,7 +173,7 @@
             <h3 class="powered"></h3>
         </div>
         <div class="rightBar">
-            <h3 class="listArtist_title">Ca sĩ gần đây</h3>
+            <h3 class="listArtist_title">Top Ca Nhạc Sỹ</h3>
             <div class="listArtist">
                 <div class="listArtist_item" onclick="renderListMusicOf('sontung',0)">
                     <div class="listArtist_item-img"><img class="listArtist_item-img" src="./img/sontung/ava.jpg" alt=""></div>
