@@ -58,14 +58,14 @@ var topSong = [
     {
         nameSong:'Khuôn mặt đáng thương',
         nameArtist:'Sơn Tùng',
-        nameFile:'sontung/khuonmatdangthuong.mp3',
+        nameFile:'6.mp3',
         time:'4:10',
         img:'sontung/khuonmatdangthuong.webp'
     },
     {
         nameSong:'Shay nắng',
         nameArtist:'Amee',
-        nameFile:'amee/shaynang.mp3',
+        nameFile:'15.mp3',
         time:'3:28',
         img:'amee/shaynang.jpg',
         
@@ -73,7 +73,7 @@ var topSong = [
     {
         nameSong:'Năm ấy',
         nameArtist:'Đức phúc',
-        nameFile:'ducphuc/namay.mp3',
+        nameFile:'22.mp3',
         time:'4:20',
         img:'ducphuc/namay.jpg',
         
@@ -85,154 +85,168 @@ var listSongOf =[
     {
         nameSong:'Khuôn mặt đáng thương',
         nameArtist:'Sơn Tùng mtp',
-        nameFile:'sontung/khuonmatdangthuong.mp3',
+        nameFile:'6.mp3',
         img:'sontung/khuonmatdangthuong.webp',
         artist:'sontung'
     },
     {
         nameSong:'Anh sai rồi',
         nameArtist:'Sơn Tùng MTP',
-        nameFile:'sontung/asairoi.mp3',
+        nameFile:'7.mp3',
         img:'sontung/asairoi.jpg',
         artist:'sontung'
     },
     {
         nameSong:'Em của ngày hôm qua',
         nameArtist:'Sơn Tùng MTP',
-        nameFile:'sontung/emcuangayhomqua.mp3',
+        nameFile:'8.mp3',
         img:'sontung/emcuangayhomqua.webp',
         artist:'sontung'
     },
     {
         nameSong:'Lạc trôi',
         nameArtist:'Sơn Tùng MTP',
-        nameFile:'sontung/lactroi.mp3',
+        nameFile:'9.mp3',
         img:'sontung/lactroi.jpg',
         artist:'sontung'
     },
     {
         nameSong:'Nắng ấm xa dần',
         nameArtist:'Sơn Tùng MTP',
-        nameFile:'sontung/nangamxadan.mp3',
+        nameFile:'10.mp3',
         img:'sontung/nangamxadan.jfif',
         artist:'sontung',
     },
     {
         nameSong:'Hãy trao cho anh',
         nameArtist:'Sơn Tùng MTP',
-        nameFile:'sontung/haytraochoanh.mp3',
+        nameFile:'11.mp3',
         img:'sontung/haytraochoanh.jpg',
+        artist:'sontung'
+    },
+    {
+        nameSong:'Muộn Rồi Mà Sao Còn',
+        nameArtist:'Sơn Tùng MTP',
+        nameFile:'12.mp3',
+        img:'sontung/12.jpg',
         artist:'sontung'
     },
     {
         nameSong:'Nàng thơ',
         nameArtist:'Amee',
-        nameFile:'amee/nangtho.mp3',
+        nameFile:'13.mp3',
         img:'amee/nangtho.webp',
         artist:'amee'
     },
     {
         nameSong:'Nói hoặc không nói',
         nameArtist:'Amee',
-        nameFile:'amee/noihoackhongnoi.mp3',
+        nameFile:'14.mp3',
         img:'amee/noihoackhongnoi.jpg',
         artist:'amee'
     },
     {
         nameSong:'Shay nắng',
         nameArtist:'Amee',
-        nameFile:'amee/shaynang.mp3',
+        nameFile:'15.mp3',
         img:'amee/shaynang.jpg',
         artist:'amee'
     },
     {
         nameSong:'Thay mọi cô gái yêu anh',
         nameArtist:'Amee',
-        nameFile:'amee/thaymoicogaiiuanh.mp3',
+        nameFile:'16.mp3',
         img:'amee/thaymoicogaiiuanh.jpg',
         artist:'amee'
     },
     {
         nameSong:'Sao ta ngược lối',
         nameArtist:'Đình dũng',
-        nameFile:'dinhdung/saotanguocloi.mp3',
+        nameFile:'4.mp3',
         img:'dinhdung/saotanguocloi.jpg',
         artist:'dinhdung'
     },
     {
         nameSong:'Câu hẹn câu thề',
         nameArtist:'Đình dũng',
-        nameFile:'dinhdung/cauhencauthe.mp3',
+        nameFile:'2.mp3',
         img:'dinhdung/cauhencauthe.jpg',
         artist:'dinhdung'
     },
     {
         nameSong:'Đừng hẹn kiếp sau',
         nameArtist:'Đình dũng',
-        nameFile:'dinhdung/dunghenkiepsau.mp3',
+        nameFile:'3.mp3',
         img:'dinhdung/dunghenkiepsau.jfif',
         artist:'dinhdung'
     },
     {
         nameSong:'Đế vương',
         nameArtist:'Đình Dũng',
-        nameFile:'dinhdung/devuong.mp3',
+        nameFile:'1.mp3',
         img:'dinhdung/devuong.jpg',
         artist:'dinhdung'
     },
     {
         nameSong:'Khác biệt to lớn',
         nameArtist:'Trịnh Thăng Bình',
-        nameFile:'ttbinh/khacbiettolon.mp3',
+        nameFile:'17.mp3',
         img:'ttbinh/khacbiettolon.jpg',
         artist:'ttbinh'
     },
     {
         nameSong:'Vỡ tan',
         nameArtist:'Trịnh Thăng Bình',
-        nameFile:'ttbinh/votan.mp3',
+        nameFile:'18.mp3',
         img:'ttbinh/votan.jpg',
         artist:'ttbinh'
     },
     {
         nameSong:'Người ấy',
         nameArtist:'Trịnh Thăng Bình',
-        nameFile:'ttbinh/nguoiay.mp3',
+        nameFile:'19.mp3',
         img:'ttbinh/nguoiay.jpg',
         artist:'ttbinh'
     },
     {
         nameSong:'Em ngủ chưa',
         nameArtist:'Trịnh Thăng Bình',
-        nameFile:'ttbinh/emnguchua.mp3',
+        nameFile:'20.mp3',
         img:'ttbinh/emnguchua.jpg',
         artist:'ttbinh'
     },
     {
         nameSong:'Trái đất đẹp nhất khi có em',
         nameArtist:'Đức phúc',
-        nameFile:'ducphuc/traidatdepnhatkhicoem.mp3',
+        nameFile:'21.mp3',
         img:'ducphuc/traidatdepnhatkhicoem.jfif',
         artist:'ducphuc'
     },
     {
         nameSong:'Năm ấy',
         nameArtist:'Đức phúc',
-        nameFile:'ducphuc/namay.mp3',
+        nameFile:'22.mp3',
         img:'ducphuc/namay.jpg',
         artist:'ducphuc'
     },
     {
         nameSong:'Ngày đầu tiên',
         nameArtist:'Đức phúc',
-        nameFile:'ducphuc/ngaydautien.mp3',
+        nameFile:'23.mp3',
         img:'ducphuc/ngaydautien.jpg',
         artist:'ducphuc'
     },
     {
         nameSong:'Gửi ngàn lời yêu',
         nameArtist:'Đức phúc',
-        nameFile:'ducphuc/guinganloiyeu.mp3',
+        nameFile:'24.mp3',
+        img:'ducphuc/guinganloiyeu.jpg',
+        artist:'ducphuc'
+    },
+    {
+        nameSong:'Cứ yêu đi',
+        nameArtist:'Đức phúc',
+        nameFile:'25.mp3',
         img:'ducphuc/guinganloiyeu.jpg',
         artist:'ducphuc'
     }
@@ -495,7 +509,7 @@ function renderTopSong(){
         listTopSong.innerHTML += `
         <div onclick="playTopSong(${index}),centerScroll(${index})" class="topSong" style="background-color:white">
         <div class="topMusicLeft">
-                <div class="topSong_rank"><img class="iconwavegif" src="./icon/wave.gif" alt=""></div>
+                <div class="topSong_rank"><img class="iconwavegif" src="./Uploads/icon/wave.gif" alt=""></div>
                 <div class="topSong_love"><i class="fa-light fa-heart"></i></div>
                 <div class="topSong_name">
                     <div class="topSong_name-nameSong">${topSong[index].nameSong}</div>
@@ -551,7 +565,7 @@ replaceAtributeTopSong();
 function renderRecentSong(artist,stt){
     recentPlayedTitle.textContent = `Bài hát hay nhất của ca sĩ đang chọn`;
     listArtistItem[stt].classList.add('recentPlayed_clicked');
-    listArtistitemIconRunning[stt].innerHTML = '<img class="iconwavegif listArtist_item-icongift" src="./icon/list.gif" alt="">';
+    listArtistitemIconRunning[stt].innerHTML = '<img class="iconwavegif listArtist_item-icongift" src="./Uploads/icon/list.gif" alt="">';
     recentSong.innerHTML = '';
     var i=-1;
     for ( var index in listSongOf){
@@ -699,7 +713,7 @@ function removeWhiteBackground(i){
     }
     if ( isAnotherSongPlaying )
     {
-        iconPlaying[i].innerHTML = '<img class="iconwavegif" src="./icon/wave.gif" alt="">';
+        iconPlaying[i].innerHTML = '<img class="iconwavegif" src="./Uploads/icon/wave.gif" alt="">';
         anotherSongItem[i].classList.add('anotherSong_item-clicked');
     }
 }

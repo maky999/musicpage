@@ -229,7 +229,7 @@ h3{
 .recentPlayed{
     margin-top: 10px;
     display: flex;
-    overflow-x:scroll;
+    overflow-x:auto;
     scrollbar-color: #6969dd #e0e0e0;
     scrollbar-width: thin;
     margin-bottom: 50px;
