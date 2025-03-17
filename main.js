@@ -35,9 +35,9 @@ var topSongIndex = 0;
 var isTopSongPlaying = true;
 var topSong = [
     {
-        nameSong: 'Độ Tộc 2 Remix',
+        nameSong: 'Beat Mixicity',
         nameArtist: 'Masew',
-        nameFile:'5.mp3',
+        nameFile:'101.mp3',
         time:'3:01',
         img:'masew/avatar.jpg'
     },
